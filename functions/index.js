@@ -1,4 +1,24 @@
-/* eslint-disable max-len */
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB3tznwepOMkSWax1I4hipFMls0zBjxxTA",
+  authDomain: "million-452321.firebaseapp.com",
+  projectId: "million-452321",
+  storageBucket: "million-452321.firebasestorage.app",
+  messagingSenderId: "63968588877",
+  appId: "1:63968588877:web:88c7f89b888cd130341804",
+  measurementId: "G-SNRH1YK156"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);/* eslint-disable max-len */
 const express = require("express");
 const {Pool} = require("pg"); // PostgreSQL library
 

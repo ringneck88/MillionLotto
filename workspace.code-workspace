@@ -16,6 +16,7 @@
 				"username": "mint420millions",
 				"impersonatedServiceAccount": "id-20mill@million-452321.iam.gserviceaccount.com"
 			}
-		]
+		],
+		"firebase.firebasePath": "node_modules\\firebase"
 	}
 }
