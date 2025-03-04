@@ -1,0 +1,12 @@
+{
+    "name": "Mint420",
+    "version": "0.0.1",
+    "private": true,
+    "license": "Apache-2.0",
+    "author": "Google Inc.",
+    "dependencies": {
+        "@google-cloud/functions-framework": "^3.1.0",
+        "Mint-420": "file:",
+        "Mint420": "file:"
+    }
+}

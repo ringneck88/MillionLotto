@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "function-hello-world",
+      "region": "us-central1",
+      "gen": "GEN_2",
+      "revision": "function-hello-world-00010-bep",
+      "entryPoint": "helloHttp",
+      "runtime": "nodejs22",
+      "testInput": ""
+    }
+  ]
+}
