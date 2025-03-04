@@ -6,8 +6,5 @@ functions.http('mintHttp', (req, res) => {
   
   
   
-  
-  
-  
   res.send('Hello World!');
 });
